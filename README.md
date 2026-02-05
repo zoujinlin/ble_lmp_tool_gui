@@ -41,7 +41,7 @@ pip install bleak
 ## 启动 GUI
 Linux（推荐）：
 ```bash
-sudo .venv/bin/python ble_lmp_tool_gui.py
+sudo ./python ble_lmp_tool_gui.py
 ```
 
 Windows：
@@ -82,6 +82,8 @@ chmod +x ble_lmp_tool.sh
 	- `厂商`：厂商代码与名称（btmon/hcitool 解析）
 	- `HCI原始`：若未能解析，显示原始 HCI 输出供排查
 	- `PnP ID`：从 GATT 读取的厂商/产品/版本号
+ <img width="2259" height="1644" alt="image" src="https://github.com/user-attachments/assets/44196228-ba65-4e6b-a6cf-cc81c240210b" />
+
 
 ## 故障排查
 - 读取不到 LMP：保持连接，等待 1–2 秒；确认 btmon 已启动且有输出。
